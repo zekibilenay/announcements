@@ -8,16 +8,50 @@
   },
   "announcements": [
     {
-      "id": "welcome-2026-10",
-      "apps": ["*"],
-      "type": "info",
-      "priority": 0,
-      "starts": "2026-10-03",
+      "id": "nextbook-bilenay-reader-tanitim",
+      "apps": ["nextbook"],
+      "type": "new_app",
+      "priority": 4,
       "expires": "2026-12-31",
       "text": {
-        "tr": "Next Book'a hoş geldin! Yeni sürümler ve yeni uygulamalar burada duyurulacak.",
-        "en": "Welcome to Next Book! News about new versions and apps will show up here."
-      }
+        "tr": "Bilenay Reader'ı denemeyi unutmayın!",
+        "en": "Don't forget to try Bilenay Reader!",
+        "ru": "Не забудьте попробовать Bilenay Reader!",
+        "de": "Probiere unbedingt Bilenay Reader aus!",
+        "fr": "N'oubliez pas d'essayer Bilenay Reader !",
+        "zh": "别忘了试试 Bilenay Reader！"
+      },
+      "url": "https://BILENAY-READER-ADRESI-BURAYA"
+    },
+    {
+      "id": "tum-uygulamalar-itch-io",
+      "apps": ["*"],
+      "type": "info",
+      "priority": 3,
+      "text": {
+        "tr": "Uygulamalarımız için itch.io sayfamıza göz at, bizi takip et ve yorum bırak!",
+        "en": "Check out our itch.io page, follow us and leave a comment!",
+        "ru": "Загляните на нашу страницу itch.io, подпишитесь на нас и оставьте комментарий!",
+        "de": "Besuche unsere itch.io-Seite, folge uns und hinterlasse einen Kommentar!",
+        "fr": "Découvrez notre page itch.io, suivez-nous et laissez un commentaire !",
+        "zh": "来看看我们的 itch.io 页面，关注我们并留下评论吧！"
+      },
+      "url": "https://ITCH-SAYFA-ADRESI-BURAYA"
+    },
+    {
+      "id": "nextbook-goodreads-grubu",
+      "apps": ["nextbook"],
+      "type": "info",
+      "priority": 2,
+      "text": {
+        "tr": "Goodreads okuma grubumuza katıl, okuduklarını paylaş!",
+        "en": "Join our Goodreads reading group and share what you read!",
+        "ru": "Присоединяйтесь к нашей группе чтения на Goodreads и делитесь прочитанным!",
+        "de": "Tritt unserer Goodreads-Lesegruppe bei und teile, was du liest!",
+        "fr": "Rejoignez notre groupe de lecture Goodreads et partagez vos lectures !",
+        "zh": "加入我们的 Goodreads 读书小组，分享你的阅读！"
+      },
+      "url": "https://GOODREADS-GRUP-ADRESI-BURAYA"
     }
   ]
 }
