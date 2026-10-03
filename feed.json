@@ -2,56 +2,79 @@
   "schema": 1,
   "apps": {
     "nextbook": {
-      "latest": "1.4.0",
+      "latest": "1.4.1",
       "url": "https://github.com/zekibilenay/nextbook/releases/latest"
     }
   },
   "announcements": [
     {
-      "id": "nextbook-bilenay-reader-tanitim",
-      "apps": ["nextbook"],
-      "type": "new_app",
-      "priority": 4,
-      "expires": "2026-12-31",
+      "id": "nextbook-yeni-surum-1-4-1",
+      "apps": [
+        "nextbook"
+      ],
+      "max_version": "1.4.0",
+      "type": "update",
+      "priority": 5,
       "text": {
-        "tr": "Bilenay Reader'ı denemeyi unutmayın!",
-        "en": "Don't forget to try Bilenay Reader!",
-        "ru": "Не забудьте попробовать Bilenay Reader!",
-        "de": "Probiere unbedingt Bilenay Reader aus!",
-        "fr": "N'oubliez pas d'essayer Bilenay Reader !",
-        "zh": "别忘了试试 Bilenay Reader！"
+        "tr": "Next Book'un yeni sürümü yayında! Güncelleyip yeniliklere göz atmaya ne dersin?",
+        "en": "A new version of Next Book is out! How about updating and taking a look at what's new?",
+        "ru": "Вышла новая версия Next Book! Почему бы не обновиться и не посмотреть, что нового?",
+        "de": "Eine neue Version von Next Book ist da! Wie wäre es mit einem Update, um die Neuerungen zu entdecken?",
+        "fr": "Une nouvelle version de Next Book est disponible ! Et si vous mettiez à jour pour découvrir les nouveautés ?",
+        "zh": "Next Book 有新版本啦！要不要更新一下，看看有什么新变化？"
       },
-      "url": "https://BILENAY-READER-ADRESI-BURAYA"
+      "url": "https://github.com/zekibilenay/nextbook/releases/latest"
+    },
+    {
+      "id": "nextbook-bilenay-reader-onerisi",
+      "apps": [
+        "nextbook"
+      ],
+      "type": "recommended",
+      "priority": 4,
+      "text": {
+        "tr": "Okurken not almak ve odaklanmak için sıcacık bir yer: Bilenay Reader'a göz atmak ister misin?",
+        "en": "A cozy place to read, take notes and stay focused: care to take a peek at Bilenay Reader?",
+        "ru": "Уютное место, чтобы читать, делать заметки и сосредоточиться: заглянете в Bilenay Reader?",
+        "de": "Ein gemütlicher Ort zum Lesen, Notieren und Konzentrieren: Magst du Bilenay Reader mal ausprobieren?",
+        "fr": "Un petit coin douillet pour lire, prendre des notes et rester concentré : un coup d'œil à Bilenay Reader ?",
+        "zh": "一个温暖的阅读、记笔记、保持专注的小天地：要不要来看看 Bilenay Reader？"
+      },
+      "url": "https://bilenay.itch.io/bilenay-reader"
     },
     {
       "id": "tum-uygulamalar-itch-io",
-      "apps": ["*"],
+      "apps": [
+        "*"
+      ],
       "type": "info",
       "priority": 3,
       "text": {
-        "tr": "Uygulamalarımız için itch.io sayfamıza göz at, bizi takip et ve yorum bırak!",
-        "en": "Check out our itch.io page, follow us and leave a comment!",
-        "ru": "Загляните на нашу страницу itch.io, подпишитесь на нас и оставьте комментарий!",
-        "de": "Besuche unsere itch.io-Seite, folge uns und hinterlasse einen Kommentar!",
-        "fr": "Découvrez notre page itch.io, suivez-nous et laissez un commentaire !",
-        "zh": "来看看我们的 itch.io 页面，关注我们并留下评论吧！"
+        "tr": "Bizi itch.io'da bulabilirsin: uğra, takip et, bir yorum bırak. Her sözün bizim için çok değerli!",
+        "en": "Find us on itch.io: drop by, follow us and leave a comment. Every word means a lot to us!",
+        "ru": "Мы на itch.io: заглядывайте, подписывайтесь и оставляйте комментарии. Каждое слово для нас очень ценно!",
+        "de": "Du findest uns auf itch.io: Schau vorbei, folge uns und hinterlasse einen Kommentar. Jedes Wort bedeutet uns viel!",
+        "fr": "Retrouvez-nous sur itch.io : passez nous voir, suivez-nous et laissez un commentaire. Chaque mot compte pour nous !",
+        "zh": "欢迎来 itch.io 找我们：逛逛、关注，再留下一条评论吧。你的每一句话对我们都很珍贵！"
       },
-      "url": "https://ITCH-SAYFA-ADRESI-BURAYA"
+      "url": "https://bilenay.itch.io/"
     },
     {
       "id": "nextbook-goodreads-grubu",
-      "apps": ["nextbook"],
+      "apps": [
+        "nextbook"
+      ],
       "type": "info",
       "priority": 2,
       "text": {
-        "tr": "Goodreads okuma grubumuza katıl, okuduklarını paylaş!",
-        "en": "Join our Goodreads reading group and share what you read!",
-        "ru": "Присоединяйтесь к нашей группе чтения на Goodreads и делитесь прочитанным!",
-        "de": "Tritt unserer Goodreads-Lesegruppe bei und teile, was du liest!",
-        "fr": "Rejoignez notre groupe de lecture Goodreads et partagez vos lectures !",
-        "zh": "加入我们的 Goodreads 读书小组，分享你的阅读！"
+        "tr": "Okumayı birlikte sevelim! Goodreads okuma grubumuza gel, okuduklarını bizimle paylaş.",
+        "en": "Reading is better together! Join our Goodreads group and share what you're reading.",
+        "ru": "Читать вместе веселее! Присоединяйтесь к нашей группе на Goodreads и делитесь тем, что читаете.",
+        "de": "Gemeinsam lesen macht mehr Spaß! Komm in unsere Goodreads-Gruppe und erzähl uns, was du liest.",
+        "fr": "Lire, c'est mieux à plusieurs ! Rejoignez notre groupe Goodreads et partagez vos lectures.",
+        "zh": "一起读书更有趣！来我们的 Goodreads 小组，和大家分享你正在读的书吧。"
       },
-      "url": "https://GOODREADS-GRUP-ADRESI-BURAYA"
+      "url": "https://www.goodreads.com/group/show/7270991-bilenay-reading-room"
     }
   ]
 }
