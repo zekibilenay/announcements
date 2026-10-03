@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "apps": {
+    "nextbook": {
+      "latest": "1.3.1",
+      "url": "https://github.com/zekibilenay/nextbook/releases/latest"
+    }
+  },
+  "announcements": [
+    {
+      "id": "welcome-2026-10",
+      "apps": ["*"],
+      "type": "info",
+      "priority": 0,
+      "starts": "2026-10-03",
+      "expires": "2026-12-31",
+      "text": {
+        "tr": "Next Book'a hoş geldin! Yeni sürümler ve yeni uygulamalar burada duyurulacak.",
+        "en": "Welcome to Next Book! News about new versions and apps will show up here."
+      }
+    }
+  ]
+}
