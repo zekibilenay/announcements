@@ -7,7 +7,7 @@
       "apps": [
         "nextbook"
       ],
-      "max_version": "1.7.0",
+      "max_version": "1.8.0",
       "type": "update",
       "priority": 5,
       "text": {
