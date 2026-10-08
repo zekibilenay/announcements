@@ -21,6 +21,19 @@
       "url": "https://github.com/zekibilenay/nextbook/releases/latest"
     },
     {
+      "id": "economiccalendar-update-1-1-0",
+      "apps": [
+        "economiccalendar"
+      ],
+      "max_version": "1.0.0",
+      "type": "update",
+      "priority": 5,
+      "text": {
+        "en": "A new version of Economic Calendar is out! How about updating and taking a look at what's new?"
+      },
+      "url": "https://github.com/zekibilenay/economic-calendar/releases/latest"
+    },
+    {
       "id": "nextbook-bilenay-reader-onerisi",
       "apps": [
         "nextbook"
